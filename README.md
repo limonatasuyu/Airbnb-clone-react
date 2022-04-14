@@ -1,3 +1,6 @@
+This is a simple react frontend project
+You can see the app from here: https://limonatasuyu.github.io/Airbnb-clone-react/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
