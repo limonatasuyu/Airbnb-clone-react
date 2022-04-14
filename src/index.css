@@ -1,13 +1,125 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	font-family: Poppins;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ======= Navbar ======= */
+
+nav {
+	height: 4.8rem;
+	box-shadow: 0 5px 5px #dbdae5;
+}
+
+nav a {
+	display: flex;
+}
+
+.nav-logo{
+	margin-top: 1.1rem;
+	margin-left: 4%;
+	height: 2.8rem;
+}
+
+.logo-text {
+	font-size: 22px;
+	color: #ff5a60;
+	margin-top: 1.3rem;
+	margin-left: 5px;
+}
+
+/* ======= Hero Section ======= */
+
+.HeroSection {
+	display: flex;
+	flex-direction: column;
+}
+
+.photoGrid {
+	max-width: 700px;
+	align-self: center;
+	margin: 3rem 15% 0;
+}
+
+.HeroHeader {
+	margin-left: 10%;
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+.HeroP {
+	margin-top: 0;
+	margin-left: 10%;
+	font-size: 22px;
+	width: 56%;
+	line-height: 1.2;
+}
+
+/* ======= Card Container ======= */
+
+.Cards-container {
+	display: flex;
+	margin-left: 10%;
+}
+
+
+
+/* ======= Card ======= */
+
+.Card {
+	position: relative;
+  text-align: center;
+  line-height: 8px;
+  margin-right: 3%;
+}
+
+.Card div >* {
+	display: flex;
+	margin: 5px 0;
+}
+
+.card-image {
+	width: 200px;
+	border-radius: 8px;
+}
+
+.card-stat {
+	position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  font-size: 0.8em;
+  padding: 6px 7px;
+  border-radius: 3px;
+}
+
+.card-star{
+	height: 0.8em;
+}
+
+.card--stats {
+	margin-left: 4px !important;
+	margin-top: 4px !important;
+}
+
+.Card h4 {
+	font-size: 0.8em;
+	margin-top: 6px;
+}
+
+.Card h5 {
+	font-weight: 100;
+	font-size: 0.8em;
+}
+
+.Card h6 {
+	margin-top: 6px;
+	margin-left: 4px;
+	font-weight: 400;
 }
